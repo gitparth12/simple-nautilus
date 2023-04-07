@@ -1,0 +1,47 @@
+ls
+mkdir a
+mkdir -p /b/c/d
+ls -l a
+chmod a= a
+adduser user1
+su user1
+cp a b/c/d/a
+mv a b/c/
+ls -l -d a
+su
+chmod u=rwx a
+chmod o=rx a
+ls -l
+adduser user
+su user
+ls -l -d a
+chmod a=rx a
+su
+ls -l -d a
+ls -l
+adduser user2
+su user
+touch file
+ls -l
+chmod o= file
+ls -l
+su user2
+ls -l file
+su
+mkdir "new dir"
+ls -l
+ls -l -a
+su user
+cd /
+touch /file
+chmod o= file
+su user1
+mkdir /directory
+cp file directory/file
+su root
+chown user1 file
+su user1
+cp file directory/file
+cd directory
+ls -l -a
+exit

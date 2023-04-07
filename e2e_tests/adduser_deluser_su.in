@@ -1,0 +1,17 @@
+su user
+adduser user
+su user
+adduser user2
+su root
+adduser user2
+su user2
+deluser user1
+su root
+deluser user1
+adduser user3
+su user3
+su
+deluser user3
+su user3
+deluser root
+exit

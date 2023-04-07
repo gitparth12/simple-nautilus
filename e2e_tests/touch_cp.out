@@ -1,0 +1,6 @@
+root:/$ root:/$ root:/$ mkdir: File exists
+root:/$ touch: Ancestor directory does not exist
+root:/$ root:/$ root:/$ root:/$ root:/$ cp: Source is a directory
+root:/$ root:/$ cp: No such file
+root:/$ cp: No such file or directory
+root:/$ bye, root

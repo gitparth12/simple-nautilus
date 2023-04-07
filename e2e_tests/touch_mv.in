@@ -1,0 +1,12 @@
+touch a/b
+mkdir a
+touch a/b
+mv /a/b /b
+mkdir b
+touch c
+touch a/c
+mv a/c /
+mkdir -p d/e/f
+mv d/e/f /f
+mv d/e/f b
+exit

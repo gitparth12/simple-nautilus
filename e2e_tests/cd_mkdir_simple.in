@@ -1,0 +1,8 @@
+mkdir one
+mkdir two
+cd one
+mkdir ../two/three
+cd /two/
+mkdir three
+cd three
+exit

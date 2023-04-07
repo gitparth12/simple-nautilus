@@ -1,0 +1,13 @@
+touch a
+touch b
+mkdir a
+touch c/d/e/f
+mkdir -p c/d/e
+touch c/d/e/f
+mkdir g
+touch d
+cp g c/d/e/g
+touch c/d/e/g
+cp f/d/g/e g
+cp a g/t/s/d
+exit

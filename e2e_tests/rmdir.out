@@ -1,0 +1,10 @@
+root:/$ rmdir: No such file or directory
+root:/$ root:/$ root:/$ rmdir: Directory not empty
+root:/$ root:/$ root:/$ cd: No such file or directory
+root:/$ root:/$ root:/a/b/c$ rmdir: Cannot remove pwd
+root:/a/b/c$ touch: Ancestor directory does not exist
+root:/a/b/c$ rmdir: No such file or directory
+root:/a/b/c$ rm: No such file
+root:/a/b/c$ mkdir: Ancestor directory does not exist
+root:/a/b/c$ rmdir: No such file or directory
+root:/a/b/c$ bye, root

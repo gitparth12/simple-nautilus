@@ -1,0 +1,16 @@
+rmdir a
+mkdir a
+mkdir -p a/b/c/d
+rmdir a/b/c
+rmdir a/b/c/d
+rmdir a/b/c
+cd a/b/c
+mkdir a/b/c
+cd a/b/c
+rmdir .
+touch a/b/c/e
+rmdir a/b/c/d/e
+rm a/b/c/d/e
+mkdir a/b/c/d/e
+rmdir a/b/c/d/e
+exit

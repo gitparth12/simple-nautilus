@@ -1,0 +1,6 @@
+root:/$ touch: Ancestor directory does not exist
+root:/$ root:/$ root:/$ root:/$ mkdir: File exists
+root:/$ root:/$ root:/$ mv: Destination is a directory
+root:/$ root:/$ mv: Source is a directory
+root:/$ mv: File exists
+root:/$ bye, root
